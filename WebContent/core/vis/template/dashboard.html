@@ -1,0 +1,22 @@
+
+<div ng-controller="DashboardCtrl">
+
+	<br> <br>
+
+	<div ng-repeat="chart in charts">
+		<div class="col-lg-12 col-md-12">
+			<div class="panel panel-default toggle">
+				<div class="panel-heading">
+					<h4 class="panel-title">{{chart}}</h4>
+					<div class="panel-controls>
+						<a href="#" class="toggle panel-minimize"><i class="fa-edit1"></i></a>
+					</div>
+				</div>
+				<div class="panel-body">
+					<ng-include src="'/cdn/core/vis/template/chart.html'"></ng-include>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

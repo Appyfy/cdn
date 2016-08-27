@@ -1,0 +1,72 @@
+/**
+ * Angular Sparklines styles
+ */
+/* line 16, ../sass/sparklines.scss */
+span.sparkline {
+  display: inline-block;
+  width: 5em;
+  height: 15px;
+  margin: 0 .2em;
+  vertical-align: baseline;
+}
+
+/* line 23, ../sass/sparklines.scss */
+sparkline {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, ../sass/sparklines.scss */
+sparkline path {
+  stroke: #999999;
+  stroke-width: 1;
+  fill: none;
+}
+
+/* line 33, ../sass/sparklines.scss */
+sparkline path.area {
+  stroke: none;
+  fill: #666666;
+}
+
+/* line 37, ../sass/sparklines.scss */
+sparkline rect.bar {
+  stroke: none;
+  fill: #333333;
+}
+
+/* line 41, ../sass/sparklines.scss */
+sparkline rect.binary {
+  fill: #333333;
+}
+
+/* line 46, ../sass/sparklines.scss */
+sparkline rect.first {
+  fill: #ff3333;
+}
+
+/* line 49, ../sass/sparklines.scss */
+sparkline rect.last {
+  fill: #ff3333;
+}
+
+/* line 52, ../sass/sparklines.scss */
+sparkline rect.max {
+  fill: #33ccff;
+}
+
+/* line 55, ../sass/sparklines.scss */
+sparkline rect.min {
+  fill: #33ccff;
+}
+
+/* line 58, ../sass/sparklines.scss */
+sparkline rect.negative {
+  fill: #ff3333;
+}
+
+/* line 61, ../sass/sparklines.scss */
+sparkline .hidden {
+  display: none;
+}
